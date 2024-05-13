@@ -1,0 +1,54 @@
+*{
+    background-color: #757575;
+}
+.Calendar{
+    margin: 2px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #4a4a4a;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 60px #00d5ff;
+    overflow-x: auto;
+}
+h1{
+    text-align: center;
+    justify-items: center;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #606060;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+table{
+    width: 100%;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 4px;
+}
+th{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #606060;
+    padding: 4px;
+    border-radius: 4px;
+}
+td{
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #8b8b8b;
+    border-radius: 4px;
+    cursor: pointer;
+}
+td:hover{
+    background-color: #00d5ff;
+}
+.active{
+    background-color: #0eb4e2;
+}
+.active:hover{
+    background-color: #1e7bd8;
+}
